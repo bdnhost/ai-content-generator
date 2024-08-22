@@ -5,76 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Content Generator - README</title>
     <link rel="stylesheet" href="styles.css">
-	<style>body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-.badges img {
-    margin: 0 5px;
-}
-
-main {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #007BFF;
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 5px;
-}
-
-ul, ol {
-    padding-left: 20px;
-}
-
-pre {
-    background: #f4f4f4;
-    padding: 10px;
-    border-radius: 4px;
-    overflow-x: auto;
-}
-
-code {
-    font-family: 'Courier New', Courier, monospace;
-    background: #f4f4f4;
-    padding: 2px 4px;
-    border-radius: 4px;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 0.9em;
-    color: #777;
-}
-</style>
+	<style></style>
 </head>
 <body>
     <header>
