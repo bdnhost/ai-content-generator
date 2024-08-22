@@ -1,133 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Content Generator - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        .badges {
-            margin-top: 10px;
-        }
-        .badges img {
-            margin: 0 5px;
-        }
-        h2 {
-            color: #3498db;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        code {
-            font-family: 'Courier New', Courier, monospace;
-        }
-        ul, ol {
-            padding-left: 20px;
-        }
-        footer {
-            margin-top: 30px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #7f8c8d;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>🤖 AI Content Generator</h1>
-        <div class="badges">
-            <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-            <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python Version"></a>
-            <a href="https://github.com/bdnhost/ai-content-generator/issues"><img src="https://img.shields.io/github/issues/bdnhost/ai-content-generator.svg" alt="GitHub Issues"></a>
-            <a href="https://github.com/bdnhost/ai-content-generator/stargazers"><img src="https://img.shields.io/github/stars/bdnhost/ai-content-generator.svg" alt="GitHub Stars"></a>
-        </div>
-    </header>
+AI Content Generator
+Features
+Content generation using state-of-the-art NLP models (GPT-3, BERT)
+SEO optimization with keyword analysis and meta tag generation
+Scheduling and automation for content publishing
+WordPress integration for seamless content deployment
+Performance analytics with detailed insights and reporting
+Multilingual support for global content creation
+Customizable templates for consistent brand voice
+Plagiarism checker to ensure content originality
+Installation
+Clone the repository:
+Bash
+git clone https://github.com/bdnhost/ai-content-generator.git
+It is important to use the code carefully.
 
-    <main>
-        <section>
-            <h2>✨ Features</h2>
-            <ul>
-                <li>📝 Content generation using state-of-the-art NLP models (GPT-3, BERT)</li>
-                <li>🔍 SEO optimization with keyword analysis and meta tag generation</li>
-                <li>🕒 Scheduling and automation for content publishing</li>
-                <li>🌐 WordPress integration for seamless content deployment</li>
-                <li>📊 Performance analytics with detailed insights and reporting</li>
-                <li>🌍 Multilingual support for global content creation</li>
-                <li>🎨 Customizable templates for consistent brand voice</li>
-                <li>🔒 Plagiarism checker to ensure content originality</li>
-            </ul>
-        </section>
+Navigate to the project directory:
+Bash
+cd ai-content-generator
+It is important to use the code carefully.
 
-        <section>
-            <h2>🚀 Installation</h2>
-            <ol>
-                <li>Clone the repository:
-                    <pre><code>git clone https://github.com/bdnhost/ai-content-generator.git</code></pre>
-                </li>
-                <li>Navigate to the project directory:
-                    <pre><code>cd ai-content-generator</code></pre>
-                </li>
-                <li>Create a virtual environment:
-                    <pre><code>python -m venv venv</code></pre>
-                </li>
-                <li>Activate the virtual environment:
-                    <ul>
-                        <li>On Windows:
-                            <pre><code>venv\Scripts\activate</code></pre>
-                        </li>
-                        <li>On macOS and Linux:
-                            <pre><code>source venv/bin/activate</code></pre>
-                        </li>
-                    </ul>
-                </li>
-                <li>Install the required packages:
-                    <pre><code>pip install -r requirements.txt</code></pre>
-                </li>
-                <li>Set up the configuration:
-                    <pre><code>cp config.yaml.example config.yaml</code></pre>
-                    <p>Edit <code>config.yaml</code> with your API keys and preferences.</p>
-                </li>
-                <li>Run the application:
-                    <pre><code>python src/main.py</code></pre>
-                </li>
-            </ol>
-        </section>
+Create a virtual environment:
+Bash
+python -m venv venv
+It is important to use the code carefully.
 
-        <section>
-            <h2>📘 Usage</h2>
-            <h3>Command Line Interface</h3>
-            <pre><code>python cli.py generate --topic "Artificial Intelligence Trends" --length 1000 --language en</code></pre>
+Activate the virtual environment:
+On Windows:
+Bash
+venv\Scripts\activate
+It is important to use the code carefully.
 
-            <h3>Web Interface</h3>
-            <ol>
-                <li>Start the web server:
-                    <pre><code>python app.py</code></pre>
-                </li>
-                <li>Open your browser and navigate to <code>http://localhost:5000</code></li>
-                <li>Use the intuitive interface to generate, edit, and publish content</li>
-            </ol>
+On macOS and Linux:
+Bash
+source venv/bin/activate
+It is important to use the code carefully.
 
-            <h3>API Integration</h3>
-            <pre><code>
+
+Install the required packages:
+Bash
+pip install -r requirements.txt
+It is important to use the code carefully.
+
+Set up the configuration:
+Bash
+cp config.yaml.example config.yaml
+It is important to use the code carefully.
+
+Edit config.yaml with your API keys and preferences. 
+Run the application:
+Bash
+python src/main.py
+It is important to use the code carefully.
+
+Usage
+Command Line Interface:
+Bash
+python cli.py generate --topic "Artificial Intelligence Trends" --length 1000 --language en
+It is important to use the code carefully.
+
+Web Interface: Start the web server:
+Bash
+python app.py
+It is important to use the code carefully.
+
+Open your browser and navigate to http://localhost:5000 Use the intuitive interface to generate, edit, and publish content.
+API Integration:
+Python
 from ai_content_generator import ContentGenerator
 
 generator = ContentGenerator()
@@ -138,76 +76,56 @@ content = generator.create_content(
     seo_keywords=["renewable energy", "sustainability"]
 )
 print(content)
-            </code></pre>
-        </section>
+It is important to use the code carefully.
 
-        <section>
-            <h2>🧪 Running Tests</h2>
-            <p>To run the test suite:</p>
-            <pre><code>pytest</code></pre>
+Running Tests
+To run the test suite:
+Bash
+pytest
+It is important to use the code carefully.
 
-            <p>For a coverage report:</p>
-            <pre><code>pytest --cov=ai_content_generator tests/</code></pre>
-        </section>
+For a coverage report:
+Bash
+pytest --cov=ai_content-generator tests/
+It is important to use the code carefully.
 
-        <section>
-            <h2>🤝 Contributing</h2>
-            <p>We welcome contributions from the community! Please follow these steps:</p>
-            <ol>
-                <li>Fork the repository</li>
-                <li>Create a new branch (<code>git checkout -b feature/AmazingFeature</code>)</li>
-                <li>Make your changes</li>
-                <li>Commit your changes (<code>git commit -m 'Add some AmazingFeature'</code>)</li>
-                <li>Push to the branch (<code>git push origin feature/AmazingFeature</code>)</li>
-                <li>Open a Pull Request</li>
-            </ol>
-            <p>Please read our <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for detailed guidelines.</p>
-        </section>
+Contributing
+We welcome contributions from the community! Please follow these steps:
 
-        <section>
-            <h2>📜 License</h2>
-            <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
-        </section>
+Fork the repository
+Create a new branch (git checkout -b feature/AmazingFeature) 
+Make your changes
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature) 
+Open a Pull Request
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-        <section>
-            <h2>🏢 About BdnHoST</h2>
-            <p>BdnHoST is a leading innovator in open-source internet solutions, operating since 2006. We specialize in creating cutting-edge technological solutions that empower businesses of all sizes.</p>
+About BdnHoST
+BdnHoST is a leading innovator in open-source internet solutions, operating since 2006. We specialize in creating cutting-edge technological solutions that empower businesses of all sizes.
 
-            <h3>🛠️ Our Services</h3>
-            <ul>
-                <li>💻 Full-stack web development with modern frameworks (React, Vue.js, Django)</li>
-                <li>🧠 Advanced AI and machine learning solutions</li>
-                <li>☁️ Cloud infrastructure management and optimization</li>
-                <li>🔧 Custom CRM and ERP system development</li>
-                <li>📚 Technology training and workshops</li>
-                <li>📣 Digital marketing and SEO strategies</li>
-                <li>🛒 E-commerce solutions with advanced features</li>
-            </ul>
+Our Services:
 
-            <h3>💡 Why Choose BdnHoST?</h3>
-            <ul>
-                <li>👨 <strong>Expertise</strong>: Team of seasoned professionals with diverse tech backgrounds</li>
-                <li>🎯 <strong>Client-Centric</strong>: Tailored solutions to meet unique business needs</li>
-                <li>💡 <strong>Innovation</strong>: Continuous integration of cutting-edge technologies</li>
-                <li>🤝 <strong>Collaboration</strong>: Strong emphasis on client communication and feedback</li>
-                <li>🌐 <strong>Open Source Advocacy</strong>: Active contributors to the open-source community</li>
-                <li>🔧 <strong>Scalability</strong>: Solutions designed to grow with your business</li>
-                <li>🔒 <strong>Security-First Approach</strong>: Implementing best practices in cybersecurity</li>
-            </ul>
+Full-stack web development with modern frameworks (React, Vue.js, Django)
+Advanced AI and machine learning solutions
+Cloud infrastructure management and optimization
+Custom CRM and ERP system development
+Technology training and workshops
+Digital marketing and SEO strategies
+E-commerce solutions with advanced features
+Why Choose BdnHoST?
 
-            <h3>📞 Contact Us</h3>
-            <ul>
-                <li>🌐 <a href="https://bdnhost.net">Website</a></li>
-                <li>📧 <a href="mailto:info@bdnhost.net">Email</a></li>
-                <li>🐦 <a href="https://twitter.com/BdnHoST">Twitter</a></li>
-                <li>💼 <a href="https://www.linkedin.com/company/bdnhost">LinkedIn</a></li>
-                <li>📱 <a href="https://github.com/bdnhost">GitHub</a></li>
-            </ul>
-        </section>
-    </main>
+Expertise: Team of seasoned professionals with diverse tech backgrounds
+Client-Centric: Tailored solutions to meet unique business needs
+Innovation: Continuous integration of cutting-edge technologies
+Collaboration: Strong emphasis on client communication and feedback
+Open Source Advocacy: Active contributors to the open-source community
+Scalability: Solutions designed to grow with your business
+Security-First Approach: Implementing best practices in cybersecurity
+Contact Us
 
-    <footer>
-        <p>© 2024 BdnHoST - Empowering the Web with Open Source Solutions</p>
-    </footer>
-</body>
-</html>
+Website: https://github.com/bdnhost/
+Twitter: https://x.com/BydnyY
+LinkedIn: https://www.linkedin.com/in/yaaqov-bidani-15939513/
+Email: info@bdnhost.net
+© 2024 BdnHoST - Empowering the Web with Open Source Solutions
