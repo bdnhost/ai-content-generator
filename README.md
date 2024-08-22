@@ -125,65 +125,91 @@ For a coverage report:
 
 
 Download
+
 Copy code
 pytest --cov=ai_content-generator tests/
 It is important to use the code carefully.
 
 🤝 Contributing
+
 We welcome contributions from the community! Please follow these steps:
 
 Fork the repository
 Create a new branch:
 
 Download
+
 Copy code
 git checkout -b feature/AmazingFeature
 Make your changes
 Commit your changes:
 
 Download
+
 Copy code
 git commit -m 'Add some AmazingFeature'
 Push to the branch:
 
 Download
+
 Copy code
 git push origin feature/AmazingFeature
 Open a Pull Request
 
 
 📜 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 🌐 About BdnHoST
+
 BdnHoST is a leading innovator in open-source internet solutions, operating since 2006. We specialize in creating cutting-edge technological solutions that empower businesses of all sizes.
 
 
 🛠️ Our Services:
+
 Full-stack web development with modern frameworks (React, Vue.js, Django) 💻
+
 Advanced AI and machine learning solutions 🤖
+
 Cloud infrastructure management and optimization ☁️
+
 Custom CRM and ERP system development 📊
+
 Technology training and workshops 🎓
+
 Digital marketing and SEO strategies 📈
+
 E-commerce solutions with advanced features 🛒
 
 
 
 💡 Why Choose BdnHoST?
+
 Expertise: Team of seasoned professionals with diverse tech backgrounds 👩💻👨💻
+
 Client-Centric: Tailored solutions to meet unique business needs 🤝
+
 Innovation: Continuous integration of cutting-edge technologies 🚀
+
 Collaboration: Strong emphasis on client communication and feedback 💬
+
 Open Source Advocacy: Active contributors to the open-source community 🌍
+
 Scalability: Solutions designed to grow with your business 📈
+
 Security-First Approach: Implementing best practices in cybersecurity 🔒
 
 
 📞 Contact Us
+
 Website: BdnHoST GitHub
+
 Twitter: @BydnyY
+
 LinkedIn: Yaaqov Bidani
+
 Email: info@bdnhost.net
+
 © 2024 BdnHoST - Empowering the Web with Open Source Solutions 🌐
