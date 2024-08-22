@@ -1,26 +1,26 @@
 
-🌟 AI Content Generator
+<h2>🌟 AI Content Generator</h2>
 
 🚀 Features
-Content Generation: Utilizing state-of-the-art NLP models (GPT-3, BERT) 🤖
 
-SEO Optimization: Keyword analysis and meta tag generation 🔍
+🤖 Content Generation: Utilizing state-of-the-art NLP models (GPT-3, BERT)
 
-Scheduling & Automation: Streamlined content publishing 📅
+🔍 SEO Optimization: Keyword analysis and meta tag generation
 
-WordPress Integration: Seamless content deployment 🖥️
+📅 Scheduling & Automation: Streamlined content publishing
 
-Performance Analytics: Detailed insights and reporting 📊
+🖥️ WordPress Integration: Seamless content deployment
 
-Multilingual Support: Global content creation 🌍
+📊 Performance Analytics: Detailed insights and reporting
 
-Customizable Templates: Maintain a consistent brand voice 🎨
+🌍 Multilingual Support: Global content creation
 
-Plagiarism Checker: Ensure content originality ✅
+🎨 Customizable Templates: Maintain a consistent brand voice
+
+✅ Plagiarism Checker: Ensure content originality
 
 
-🛠️ Installation
-Clone the Repository:
+🛠️ Installation Clone the Repository:
 
 Download
 Copy code
@@ -30,7 +30,7 @@ It is important to use the code carefully.
 
 Navigate to the Project Directory:
 
-Download
+
 Copy code
 cd ai-content-generator
 It is important to use the code carefully.
@@ -38,7 +38,7 @@ It is important to use the code carefully.
 Create a Virtual Environment:
 
 
-Download
+
 Copy code
 python -m venv venv
 It is important to use the code carefully.
@@ -47,12 +47,12 @@ Activate the Virtual Environment:
 
 On Windows:
 
-Download
+
 Copy code
 venv\Scripts\activate
 On macOS and Linux:
 
-Download
+
 Copy code
 source venv/bin/activate
 It is important to use the code carefully.
@@ -60,7 +60,7 @@ It is important to use the code carefully.
 Install Required Packages:
 
 
-Download
+
 Copy code
 pip install -r requirements.txt
 It is important to use the code carefully.
@@ -68,7 +68,7 @@ It is important to use the code carefully.
 Set Up the Configuration:
 
 
-Download
+
 Copy code
 cp config.yaml.example config.yaml
 It is important to use the code carefully.
@@ -78,7 +78,7 @@ Edit config.yaml with your API keys and preferences.
 Run the Application:
 
 
-Download
+
 Copy code
 python src/main.py
 It is important to use the code carefully.
@@ -87,7 +87,7 @@ It is important to use the code carefully.
 🖥️ Usage
 Command Line Interface:
 
-Download
+
 Copy code
 python cli.py generate --topic "Artificial Intelligence Trends" --length 1000 --language en
 It is important to use the code carefully.
@@ -96,7 +96,7 @@ Web Interface:
 Start the Web Server:
 
 
-Download
+
 Copy code
 python app.py
 It is important to use the code carefully.
@@ -105,7 +105,7 @@ Open your browser and navigate to http://localhost:5000. Use the intuitive inter
 
 API Integration:
 python
-Download
+
 Copy code
 from ai_content_generator import ContentGenerator
 
@@ -123,7 +123,7 @@ It is important to use the code carefully.
 To run the test suite:
 
 
-Download
+
 Copy code
 pytest
 It is important to use the code carefully.
@@ -131,7 +131,7 @@ It is important to use the code carefully.
 For a coverage report:
 
 
-Download
+
 
 Copy code
 pytest --cov=ai_content-generator tests/
@@ -144,20 +144,20 @@ We welcome contributions from the community! Please follow these steps:
 Fork the repository
 Create a new branch:
 
-Download
+
 
 Copy code
 git checkout -b feature/AmazingFeature
 Make your changes
 Commit your changes:
 
-Download
+
 
 Copy code
 git commit -m 'Add some AmazingFeature'
 Push to the branch:
 
-Download
+
 
 Copy code
 git push origin feature/AmazingFeature
