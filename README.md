@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="he" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Content Generator - README</title>
-    <link rel="stylesheet" href="styles.css">
-	<style></style>
-</head>
-<body>
-    <header>
+ <header>
         <h1>🤖 AI Content Generator</h1>
         <div class="badges">
             <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
@@ -165,5 +155,3 @@ print(content)
     <footer>
         <p>© 2024 BdnHoST - Empowering the Web with Open Source Solutions</p>
     </footer>
-</body>
-</html>
