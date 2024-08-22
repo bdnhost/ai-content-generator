@@ -1,4 +1,58 @@
- <header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Generator - README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .badges {
+            margin-top: 10px;
+        }
+        .badges img {
+            margin: 0 5px;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header>
         <h1>🤖 AI Content Generator</h1>
         <div class="badges">
             <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
@@ -132,13 +186,13 @@ print(content)
 
             <h3>💡 Why Choose BdnHoST?</h3>
             <ul>
-                <li>👨 **Expertise**: Team of seasoned professionals with diverse tech backgrounds</li>
-                <li>🎯 **Client-Centric**: Tailored solutions to meet unique business needs</li>
-                <li>💡 **Innovation**: Continuous integration of cutting-edge technologies</li>
-                <li>🤝 **Collaboration**: Strong emphasis on client communication and feedback</li>
-                <li>🌐 **Open Source Advocacy**: Active contributors to the open-source community</li>
-                <li>🔧 **Scalability**: Solutions designed to grow with your business</li>
-                <li>🔒 **Security-First Approach**: Implementing best practices in cybersecurity</li>
+                <li>👨 <strong>Expertise</strong>: Team of seasoned professionals with diverse tech backgrounds</li>
+                <li>🎯 <strong>Client-Centric</strong>: Tailored solutions to meet unique business needs</li>
+                <li>💡 <strong>Innovation</strong>: Continuous integration of cutting-edge technologies</li>
+                <li>🤝 <strong>Collaboration</strong>: Strong emphasis on client communication and feedback</li>
+                <li>🌐 <strong>Open Source Advocacy</strong>: Active contributors to the open-source community</li>
+                <li>🔧 <strong>Scalability</strong>: Solutions designed to grow with your business</li>
+                <li>🔒 <strong>Security-First Approach</strong>: Implementing best practices in cybersecurity</li>
             </ul>
 
             <h3>📞 Contact Us</h3>
@@ -155,3 +209,5 @@ print(content)
     <footer>
         <p>© 2024 BdnHoST - Empowering the Web with Open Source Solutions</p>
     </footer>
+</body>
+</html>
