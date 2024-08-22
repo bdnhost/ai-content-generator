@@ -1,7 +1,7 @@
 
 <h2>🌟 AI Content Generator</h2>
 
-🚀 Features
+<h3>🚀 Features</h3>
 
 🤖 Content Generation: Utilizing state-of-the-art NLP models (GPT-3, BERT)
 
@@ -20,26 +20,21 @@
 ✅ Plagiarism Checker: Ensure content originality
 
 
-🛠️ Installation Clone the Repository:
+<h3>🛠️ Installation Clone the Repository:</h3>
 
-Download
-Copy code
+
 git clone https://github.com/bdnhost/ai-content-generator.git
 It is important to use the code carefully.
 
 
-Navigate to the Project Directory:
+<h3>Navigate to the Project Directory:</h3>
 
-
-Copy code
 cd ai-content-generator
 It is important to use the code carefully.
 
 Create a Virtual Environment:
 
 
-
-Copy code
 python -m venv venv
 It is important to use the code carefully.
 
@@ -48,12 +43,11 @@ Activate the Virtual Environment:
 On Windows:
 
 
-Copy code
 venv\Scripts\activate
 On macOS and Linux:
 
 
-Copy code
+
 source venv/bin/activate
 It is important to use the code carefully.
 
@@ -61,15 +55,13 @@ Install Required Packages:
 
 
 
-Copy code
+
 pip install -r requirements.txt
 It is important to use the code carefully.
 
-Set Up the Configuration:
 
+<h3>Set Up the Configuration:</h3>
 
-
-Copy code
 cp config.yaml.example config.yaml
 It is important to use the code carefully.
 
@@ -79,16 +71,16 @@ Run the Application:
 
 
 
-Copy code
+
 python src/main.py
 It is important to use the code carefully.
 
 
-🖥️ Usage
+<h4>🖥️ Usage</h4>
 Command Line Interface:
 
 
-Copy code
+
 python cli.py generate --topic "Artificial Intelligence Trends" --length 1000 --language en
 It is important to use the code carefully.
 
@@ -97,7 +89,7 @@ Start the Web Server:
 
 
 
-Copy code
+
 python app.py
 It is important to use the code carefully.
 
@@ -106,7 +98,7 @@ Open your browser and navigate to http://localhost:5000. Use the intuitive inter
 API Integration:
 python
 
-Copy code
+
 from ai_content_generator import ContentGenerator
 
 generator = ContentGenerator()
@@ -122,22 +114,16 @@ It is important to use the code carefully.
 🧪 Running Tests
 To run the test suite:
 
-
-
-Copy code
 pytest
 It is important to use the code carefully.
 
 For a coverage report:
 
 
-
-
-Copy code
 pytest --cov=ai_content-generator tests/
 It is important to use the code carefully.
 
-🤝 Contributing
+<h3>🤝 Contributing</h3>
 
 We welcome contributions from the community! Please follow these steps:
 
@@ -146,70 +132,70 @@ Create a new branch:
 
 
 
-Copy code
+
 git checkout -b feature/AmazingFeature
 Make your changes
 Commit your changes:
 
 
 
-Copy code
+
 git commit -m 'Add some AmazingFeature'
 Push to the branch:
 
 
 
-Copy code
+
 git push origin feature/AmazingFeature
 Open a Pull Request
 
 
-📜 License
+<h3>📜 License</h3>
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-🌐 About BdnHoST
+<h3>🌐 About BdnHoST</h3>
 
 BdnHoST is a leading innovator in open-source internet solutions, operating since 2006. We specialize in creating cutting-edge technological solutions that empower businesses of all sizes.
 
 
-🛠️ Our Services:
+<h3>🛠️ Our Services:</h3>
 
-Full-stack web development with modern frameworks (React, Vue.js, Django) 💻
+💻 Full-stack web development with modern frameworks (React, Vue.js, Django) 
 
-Advanced AI and machine learning solutions 🤖
+🤖 Advanced AI and machine learning solutions
 
-Cloud infrastructure management and optimization ☁️
+☁️ Cloud infrastructure management and optimization
 
-Custom CRM and ERP system development 📊
+📊 Custom CRM and ERP system development
 
-Technology training and workshops 🎓
+🎓 Technology training and workshops
 
-Digital marketing and SEO strategies 📈
+📈 Digital marketing and SEO strategies
 
-E-commerce solutions with advanced features 🛒
+🛒E-commerce solutions with advanced features
 
 
 
 💡 Why Choose BdnHoST?
 
-Expertise: Team of seasoned professionals with diverse tech backgrounds 👩💻👨💻
+👩 Expertise: Team of seasoned professionals with diverse tech backgrounds
 
-Client-Centric: Tailored solutions to meet unique business needs 🤝
+🤝 Client-Centric: Tailored solutions to meet unique business needs
 
-Innovation: Continuous integration of cutting-edge technologies 🚀
+🚀 Innovation: Continuous integration of cutting-edge technologies
 
-Collaboration: Strong emphasis on client communication and feedback 💬
+💬 Collaboration: Strong emphasis on client communication and feedback
 
-Open Source Advocacy: Active contributors to the open-source community 🌍
+🌍 Open Source Advocacy: Active contributors to the open-source community
 
-Scalability: Solutions designed to grow with your business 📈
+📈 Scalability: Solutions designed to grow with your business
 
-Security-First Approach: Implementing best practices in cybersecurity 🔒
+🔒 Security-First Approach: Implementing best practices in cybersecurity
 
 
-📞 Contact Us
+<h3>📞 Contact Us</h3>
 
 Website: BdnHoST GitHub
 
